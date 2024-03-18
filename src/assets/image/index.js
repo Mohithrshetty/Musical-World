@@ -1,0 +1,1 @@
+export { default as Logo } from '/src/components/Header/logo.png'
