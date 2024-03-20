@@ -74,6 +74,9 @@ function Navbar() {
         {isLoggedIn ? (
           <>
             <li className="navbar-item"><Link to="/Favorites" className="navbar-link">Favorites</Link></li>
+            <li className="navbar-item">
+  <a href="https://api.whatsapp.com/send?phone=7204204685" className="navbar-link">Contact</a>
+</li>
             <li className="navbar-item"><Link to="/login" onClick={handleLogout} className="navbar-link">Logout</Link></li>
           </>
         ) : (
